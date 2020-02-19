@@ -1,0 +1,5 @@
+name := "design-patterns-in-scala"
+
+version := "0.1"
+
+scalaVersion := "2.13.1"
