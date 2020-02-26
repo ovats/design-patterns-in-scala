@@ -94,6 +94,7 @@ Implementing Design Patterns in Scala.
 ### Strategy
 
 - **GoF Definition: "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.".**
+- One sample in strategy.examples.computeNumbers.
 
 ### Template Method (TODO)
 
