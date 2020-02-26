@@ -1,5 +1,12 @@
 package factoryMethod.examples.animals
 
+import factoryMethod.examples.animals.AnimalType.AnimalType
+
+object AnimalType extends Enumeration {
+  type AnimalType = Value
+  val DOG, CAT, MOUSE = Value
+}
+
 // This is the Product hierarchy
 trait Animal {
 }
@@ -9,8 +16,8 @@ class Cat extends Animal
 // This is the factory method
 // This is like a static method because it's on a Scala's object
 object Animal {
-  def apply (animalType: String): Animal = animalType match {
-    case "Dog" => new Dog
-    case "Cat" => new Cat
+  def apply (animalType: AnimalType): Animal = animalType match {
+    case AnimalType.DOG => new Dog
+    case AnimalType.CAT => new Cat
   }
 }
