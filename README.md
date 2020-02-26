@@ -17,6 +17,7 @@ Implementing Design Patterns in Scala.
 ### Factory Method
 
 - **GoF Definition: "Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.".**
+- Generic implementation in package factoryMethod.generic.
 - Two examples in package factoryMethod.examples.
 
 ### Prototype (TODO)
