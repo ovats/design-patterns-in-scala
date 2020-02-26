@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adhere to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2020-02-26
+- Refactor in Strategy design pattern, package strategy.examples.computeNumbers.
+
 ## [1.0.1] - 2020-02-26
 - Added Factory Method design pattern.
 - Two examples in package factoryMethod.examples.
