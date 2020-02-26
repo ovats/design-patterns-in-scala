@@ -1,8 +1,8 @@
 package strategy.examples.computeNumbers
 
-import strategy.examples.computeNumbers.StrategyAlgorithm.StrategyAlgorithm
+import strategy.examples.computeNumbers.StrategyAlgorithmType.StrategyAlgorithmType
 
 object Strategies {
-  val add: StrategyAlgorithm = _ + _
-  val multiply: StrategyAlgorithm = _ * _
+  val calculationAdd: StrategyAlgorithmType = _ + _
+  val calculationMultiply: StrategyAlgorithmType = _ * _
 }
