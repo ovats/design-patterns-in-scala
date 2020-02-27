@@ -10,14 +10,14 @@ import builder.generic.builders.Builder
 class Director {
 
   def makeA(builder: Builder) = {
-    System.out.println("Director, making product A")
+    println("Director, making product A")
     builder.reset()
     builder.buildStepA()
     builder.buildStepZ()
   }
 
   def makeB(builder: Builder) = {
-    System.out.println("Director, making product B")
+    println("Director, making product B")
     builder.reset()
     builder.buildStepB()
     builder.buildStepZ()

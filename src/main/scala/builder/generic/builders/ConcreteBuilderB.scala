@@ -12,19 +12,19 @@ class ConcreteBuilderB extends Builder {
   private val product = new ProductB()
 
   override def reset(): Unit = {
-    System.out.println("Concrete Builder B: reset")
+    println("Concrete Builder B: reset")
   }
 
   override def buildStepA(): Unit = {
-    System.out.println("Concrete Builder B: step A")
+    println("Concrete Builder B: step A")
   }
 
   override def buildStepB(): Unit = {
-    System.out.println("Concrete Builder B: step B")
+    println("Concrete Builder B: step B")
   }
 
   override def buildStepZ(): Unit = {
-    System.out.println("Concrete Builder B: step Z")
+    println("Concrete Builder B: step Z")
   }
 
   def getResult(): ProductB = product
