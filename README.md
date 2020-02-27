@@ -11,9 +11,10 @@ Implementing Design Patterns in Scala.
 - **GoF Definition: "Provide an interface for creating families of related or dependent objects without specifying their concrete classes".**
 - Generic implementation in package abstractMethod.generic.
 
-### Builder (TODO)
+### Builder
 
 - **GoF Definition: "Separate the construction of a complex object from its representation so that the same construction process can create different representations".**
+- Generic implementation in package builder.generic.
 
 ### Factory Method
 
