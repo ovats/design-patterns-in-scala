@@ -33,7 +33,7 @@ Implementing Design Patterns in Scala 2.13.
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/Strategy_pattern)**
 - One sample in strategy.examples.computeNumbers.
 
-# To be implemented:
+# To be implemented
 
 ## Creational Patterns
 
