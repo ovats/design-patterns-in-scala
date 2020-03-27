@@ -25,6 +25,18 @@ Implementing Design Patterns in Scala 2.13.
 - Generic implementation in package factoryMethod.generic.
 - Two examples in package factoryMethod.examples.
 
+## Behavioral Patterns
+
+### Strategy
+
+- **GoF Definition: "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.".**
+- **[Wikipedia definition](https://en.wikipedia.org/wiki/Strategy_pattern)**
+- One sample in strategy.examples.computeNumbers.
+
+# To be implemented:
+
+## Creational Patterns
+
 ### Prototype (TODO)
 
 - **GoF Definition: "Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype".**
@@ -113,12 +125,6 @@ Implementing Design Patterns in Scala 2.13.
 
 - **GoF Definition: "Allow an object to alter its behavior when its internal state changes. The object will appear to change its class"**
 - **[Wikipedia definition](https://en.wikipedia.org/wiki/State_pattern)**
-
-### Strategy
-
-- **GoF Definition: "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.".**
-- **[Wikipedia definition](https://en.wikipedia.org/wiki/Strategy_pattern)**
-- One sample in strategy.examples.computeNumbers.
 
 ### Template Method (TODO)
 
