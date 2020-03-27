@@ -1,8 +1,8 @@
 # design-patterns-in-scala
 
-Implementing Design Patterns in Scala.
+Implementing Design Patterns in Scala 2.13.
 
-# Patterns implemented:
+# Patterns implemented
 
 ## Creational Patterns
 
